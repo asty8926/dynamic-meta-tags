@@ -19,15 +19,15 @@ let metas = {
 		property: "og:description",
 		content: "OG Description"
 	}
-}
+};
 
-// function that executes itself as soon as it's created
-(function generateMetas(){
+// self-executing function
+(function generateMetas() {
 	for (const [metaName, metaObject] of Object.entries(metas)) {
-		let metaEl = document.createElement("meta")
-		metaEl.setAttribute(Object.entries(metaObject)[0][0], Object.entries(metaObject)[0][1])
-		metaEl.setAttribute(Object.entries(metaObject)[1][0], Object.entries(metaObject)[1][1])
+		let metaEl = document.createElement("meta");
+		metaEl.setAttribute(Object.entries(metaObject)[0][0], Object.entries(metaObject)[0][1]);
+		metaEl.setAttribute(Object.entries(metaObject)[1][0], Object.entries(metaObject)[1][1]);
 
-		document.head.appendChild(metaEl)
+		document.head.appendChild(metaEl);
 	}
-})()
+})();
