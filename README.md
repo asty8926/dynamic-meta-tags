@@ -4,6 +4,6 @@ This repository was about me testing if HTML `meta` tags for URL previews in soc
 
 This test confirmed that dynamically generating those `meta` tags with JavaScript doesn't display a social media preview when putting the URL as a post or in chat in Discord (to give an example).
 
-This makes sense because putting an URL in chat doesn't for sure execute the JavaScript files of the website, but I still wanted to see how and when (at what stage/step) the meta tags are queried/fetched.
+This makes sense because putting a URL in chat doesn't for sure execute the JavaScript files of the website, but I still wanted to see how and when (at what stage/step) the meta tags are queried/fetched.
 
 I suppose I will leave this repository public, so if you had the same question as me and wanted to test it, you could see the result or share this experiment.
