@@ -1,6 +1,6 @@
 # Dynamic Meta Tags
 
-This repository was about me testing if HTML `meta` tags for URL previews in social media could be dynamically generated with JavaScript, to prevent the web developer to actually have to manually copy and paste them into each HTML page manually and separately, and still displaying their proper fields and content.
+This repository was about me testing if HTML `meta` tags for URL previews in social media could be dynamically generated with JavaScript, to prevent the web developer to actually have to manually copy and paste them into each HTML page separately, and still displaying their proper fields and content.
 
 This test confirmed that dynamically generating those `meta` tags with JavaScript doesn't display a social media preview when putting the URL as a post or in chat in Discord (to give an example).
 
